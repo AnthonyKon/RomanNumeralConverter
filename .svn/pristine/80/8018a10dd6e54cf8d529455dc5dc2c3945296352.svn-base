@@ -1,0 +1,97 @@
+/**
+ * Computer Programming 2 (COMP2711, COMP8801)
+ * Practical 2: Roman Numbers
+ */
+using namespace std;
+#include <iostream>
+#include <cctype>
+#include <algorithm>
+
+int main(int argc, char *argv[])
+{
+    int romanValue(char r);
+    int romanInt(string& str);
+
+    string roman[] = {"I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX"};
+    string romanTen[] = {"X", "XX", "XXX", "XL", "L", "LX", "LXX", "LXXX", "XC"};
+    string romanHundred[] = {"C", "CC", "CCC", "CD", "D", "DC", "DCC", "DCCC", "CM"};
+    string romanThousand[] = {"M", "MM", "MMM"};
+
+    string input;
+    while (getline(cin, input)){
+        if (input == ""){
+            return 0;
+        }
+
+        for (int j = 0; j < input.length(); ++j) {
+            input[j] = toupper(input[j]);
+        }
+
+/*            for (int i = 0; i < sizeof(romanThousand)/sizeof(string); ++i) {
+                if (romanThousand[i] == input) {
+                    cout << (i + 1) * 1000 << endl;
+                }
+            }*/
+
+            for (int i = 0; i < sizeof(roman)/sizeof(string); ++i) {
+
+//                if (roman[i] == input){
+//                    cout << i + 1 << endl;
+                if (romanTen[i] == input){
+                    cout << (i + 1) * 10 << endl;
+                } else if(romanHundred[i] == input){
+                    cout << (i + 1) * 100 << endl;
+                } else if (roman[i] != input && romanTen[i] != input && romanHundred[i] != input && romanThousand[i] != input){
+                    cout << romanInt(input) << endl;
+                    break;
+                }
+            }
+        }
+
+    return 0;
+
+}
+
+int romanValue(char c)
+{
+    if (c == 'I')
+        return 1;
+    if (c == 'V')
+        return 5;
+    if (c == 'X')
+        return 10;
+    if (c == 'L')
+        return 50;
+    if (c == 'C')
+        return 100;
+    if (c == 'D')
+        return 500;
+    if (c == 'M')
+        return 1000;
+
+    //exits at the last valid character in a roman numeral
+    return 0;
+}
+
+int romanInt(string& s)
+{
+    int result = 0;
+    for (int i = 0; i < s.length(); i++) {
+        int symbol = romanValue(s[i]);
+
+        if (i + 1 < s.length()) {
+            int s2 = romanValue(s[i + 1]);
+            if (symbol >= s2) {
+                result = result + symbol;
+            }
+            else {
+                result = result + s2 - symbol;
+                i++;
+            }
+        }
+        else {
+            result = result + symbol;
+        }
+    }
+    return result;
+}

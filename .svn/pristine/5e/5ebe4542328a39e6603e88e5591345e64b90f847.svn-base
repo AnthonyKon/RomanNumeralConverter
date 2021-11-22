@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="roman" targetName="roman" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2375cec8-1b6d-4966-a21e-5fbf37ec50e1" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="ProjectId" id="1fvfes172SXX1WR7DCm8AmY7aJ8" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+  </component>
+  <component name="RunManager">
+    <configuration name="roman" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="roman" TARGET_NAME="roman" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="roman" RUN_TARGET_NAME="roman">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>C:\Users\antho\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="SvnFileUrlMappingImpl">
+    <option name="myMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="C:\CP2\koni0028\roman" />
+          <option name="myCopyRoot" value="C:\CP2\koni0028\roman" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+    <option name="myMoreRealMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="C:\CP2\koni0028\roman" />
+          <option name="myCopyRoot" value="C:\CP2\koni0028\roman" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2375cec8-1b6d-4966-a21e-5fbf37ec50e1" name="Default Changelist" comment="" />
+      <created>1597103584256</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1597103584256</updated>
+      <workItem from="1597103585723" duration="14977000" />
+      <workItem from="1597119318881" duration="1014000" />
+      <workItem from="1597147712807" duration="7955000" />
+      <workItem from="1597636465836" duration="233000" />
+      <workItem from="1597736432902" duration="1670000" />
+      <workItem from="1597814031002" duration="6180000" />
+      <workItem from="1597974986687" duration="1974000" />
+      <workItem from="1597999052063" duration="2142000" />
+      <workItem from="1598350490671" duration="652000" />
+      <workItem from="1598414492167" duration="3273000" />
+      <workItem from="1598488911180" duration="1654000" />
+    </task>
+    <task id="LOCAL-00001" summary="Level One - Stored the values of roman numerals in a string array, used a loop to loop over the input taken from the user to turn the input into uppercase, then print out the index at which the numeral is stored as an integer.">
+      <created>1597107492634</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1597107492634</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Level Two - added three new string arrays to handle input of roman numerals for tens, hundreds and thousands as well as continuously taking input from the user until no more input is given.">
+      <created>1597110689036</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1597110689036</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Level Two - changed if statement to assess if input is equal to &quot;&quot;">
+      <created>1597110955160</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1597110955160</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Level Two - forgot to include a } after my loop to convert all input to uppercase which resulted in the output being printed too many times.">
+      <created>1597111626605</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1597111626605</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Level Three - implemented a count and removed the loop to count the thousands.">
+      <created>1597116239170</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1597116239170</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Level Three - removed handling for single digits">
+      <created>1597116507757</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1597116507757</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Level Three - testing to see that it works with all that I've removed">
+      <created>1597152459040</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1597152459040</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Level 3 &amp; 4 - Realized array needed to be used all the way through, especially when doing the 4th level, so implemented needed code as such.">
+      <created>1598490300051</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1598490300051</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Level One - Stored the values of roman numerals in a string array, used a loop to loop over the input taken from the user to turn the input into uppercase, then print out the index at which the numeral is stored as an integer." />
+    <MESSAGE value="Level Two - added three new string arrays to handle input of roman numerals for tens, hundreds and thousands as well as continuously taking input from the user until no more input is given." />
+    <MESSAGE value="Level Two - changed if statement to assess if input is equal to &quot;&quot;" />
+    <MESSAGE value="Level Two - forgot to include a } after my loop to convert all input to uppercase which resulted in the output being printed too many times." />
+    <MESSAGE value="Level Three - implemented a count and removed the loop to count the thousands." />
+    <MESSAGE value="Level Three - removed handling for single digits" />
+    <MESSAGE value="Level Three - testing to see that it works with all that I've removed" />
+    <MESSAGE value="Level 3 &amp; 4 - Realized array needed to be used all the way through, especially when doing the 4th level, so implemented needed code as such." />
+    <option name="LAST_COMMIT_MESSAGE" value="Level 3 &amp; 4 - Realized array needed to be used all the way through, especially when doing the 4th level, so implemented needed code as such." />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="0" y="76" key="CommitChangelistDialog2" timestamp="1598490299434">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="0" y="76" key="CommitChangelistDialog2/0.0.1920.1040/-2560.-131.2560.1400@0.0.1920.1040" timestamp="1598490299434" />
+    <state width="1877" height="153" key="GridCell.Tab.0.bottom" timestamp="1598490533398">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="153" key="GridCell.Tab.0.bottom/0.0.1920.1040/-2560.-131.2560.1400@0.0.1920.1040" timestamp="1598490533398" />
+    <state width="1877" height="153" key="GridCell.Tab.0.center" timestamp="1598490533398">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="153" key="GridCell.Tab.0.center/0.0.1920.1040/-2560.-131.2560.1400@0.0.1920.1040" timestamp="1598490533398" />
+    <state width="1877" height="153" key="GridCell.Tab.0.left" timestamp="1598490533398">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="153" key="GridCell.Tab.0.left/0.0.1920.1040/-2560.-131.2560.1400@0.0.1920.1040" timestamp="1598490533398" />
+    <state width="1877" height="153" key="GridCell.Tab.0.right" timestamp="1598490533398">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="153" key="GridCell.Tab.0.right/0.0.1920.1040/-2560.-131.2560.1400@0.0.1920.1040" timestamp="1598490533398" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1597820215032">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040/-2560.-131.2560.1400@0.0.1920.1040" timestamp="1597820215032" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1597820215032">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040/-2560.-131.2560.1400@0.0.1920.1040" timestamp="1597820215032" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1597820215032">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040/-2560.-131.2560.1400@0.0.1920.1040" timestamp="1597820215032" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1597820215032">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040/-2560.-131.2560.1400@0.0.1920.1040" timestamp="1597820215032" />
+  </component>
+</project>

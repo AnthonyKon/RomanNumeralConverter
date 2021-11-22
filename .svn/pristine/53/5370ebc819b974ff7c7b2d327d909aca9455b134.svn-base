@@ -1,0 +1,46 @@
+/**
+ * Computer Programming 2 (COMP2711, COMP8801)
+ * Practical 2: Roman Numbers
+ */
+using namespace std;
+#include <iostream>
+#include <cctype>
+#include <algorithm>
+
+int main(int argc, char *argv[])
+{
+    string roman[] = {"I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX"};
+    string romanTen[] = {"X", "XX", "XXX", "XL", "L", "LX", "LXX", "LXXX", "XC"};
+    string romanHundred[] = {"C", "CC", "CCC", "CD", "D", "DC", "DCC", "DCCC", "CM"};
+    string romanThousand[] = {"M", "MM", "MMM"};
+
+    string input;
+    while (getline(cin, input)){
+        if (input == ""){
+            return 0;
+        }
+
+        for (int j = 0; j < input.length(); ++j) {
+            input[j] = toupper(input[j]);
+
+            for (int i = 0; i < sizeof(romanThousand)/sizeof(string); ++i) {
+                if (romanThousand[i] == input) {
+                    cout << (i + 1) * 1000 << endl;
+                }
+            }
+
+            for (int i = 0; i < sizeof(roman)/sizeof(string); ++i) {
+
+                if (roman[i] == input){
+                    cout << i + 1 << endl;
+                } else if(romanTen[i] == input){
+                    cout << (i + 1) * 10 << endl;
+                } else if(romanHundred[i] == input){
+                    cout << (i + 1) * 100 << endl;
+                }
+            }
+        }
+    }
+    return 0;
+
+}
